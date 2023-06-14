@@ -1,0 +1,25 @@
+var array,fecha;
+array=new Array () ;
+fecha=new Date () ;
+array [1]= "Enero" ;
+array [2]= "Febrero" ;
+array [3]= "Marzo" ;
+array [4]= "Abril" ;
+array [5]= "Mayo" ;
+array [6]= "Junio" ;
+array [7]= "Julio" ;
+array [8]= "Agosto" ;
+array [9]= "Septiembre" ;
+array [10]= "Octubre" ;
+array [11]= "Noviembre" ;
+array [12]= "Diciembre" ;
+document.write("hoy es ") ;
+document.write(fecha.getDate() + "/") ;
+document.write((fecha.getMonth () +1) + "/") ;
+document.write(fecha.getFullYear() +"/") ;
+document.write("<br> son las") ;
+document.write(fecha.getHours () + ":") ;
+document.write(fecha.getMinutes () + ":")
+document.write(fecha.getSeconds ());
+document.write("<br> Estamos en el mes de ");
+document.write(array[fecha.getDay()]);
